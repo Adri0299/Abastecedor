@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Abastecedor La Negrita</title>
+        <meta charset="UTF-8">
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <a class="logo nav-link" href="Index.html">Abastecedor La Negrita</a>
+
+                <ul class="nav-menu">   
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Mostrar.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Mapa.html">&RightTriangleBar;</a></li>
+
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Usuario.html">Usuario</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Agregar.html">Agregar</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Eliminar.html">Eliminar</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Mostrar.html">Mostrar</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Productos.html">Productos</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Mapa.html">Mapa</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Acerca_de.html">Acerca_de</a></li>
+
+
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+
+            <h2>Productos</h2>
+            <article>
+                <form action="Consulta_productos.jsp" method="post"> 
+
+                    <br/><label> Fecha de consulta </label>
+                    <input type="date" name="fecha"><br/>
+
+                    <br/><h2 style="font-family: Comic Scans MS; color: blueviolet; font-size: 17px "> <label> Granos más vendidos </label> </h2> 
+                    Arroz <input type="checkbox" name="arroz"><br/>
+                    Frijoles <input type="checkbox" name="frijoles"><br/>
+                    Lentejas <input type="checkbox" name="azucar"><br/>
+                    Avena <input type="checkbox" name="avena"><br/>
+                    Maiz <input type="checkbox" name="maiz"><br/>
+                    Café <input type="checkbox" name="café"><br/>
+
+                    <br/><h2 style="font-family: Comic Scans MS; color: blueviolet; font-size: 17px "><label> Lacteos más vendidos </label> </h2>
+                    Leche <input type="checkbox" name="leche"><br/>
+                    Queso en polvo <input type="checkbox" name="queso_en_polvo"><br/>
+                    Queso crema <input type="checkbox" name="queso_crema"><br/>
+                    Yogourt <input type="checkbox" name="yogourt"><br/>
+                    Helado <input type="checkbox" name="helado"><br/>
+                    Natilla <input type="checkbox" name="natilla"><br/>
+
+                    <br/><h3 style="font-family: Comic Scans MS; color: blueviolet; font-size: 17px "><label> Higiene más vendidos </label></h3>
+                    Jabón de ropa <input type="checkbox" name="jabon_de_ropa"><br/>
+                    Suavitel <input type="checkbox" name="suavitel"><br/>
+                    Jabón de platos <input type="checkbox" name="jabon_de_platos"><br/>
+                    Cloro <input type="checkbox" name="cloro"><br/>
+                    Papel higienico <input type="checkbox" name="papel_higienico"><br/>
+                    Toallas de cocina <input type="checkbox" name="toallas_de_cocina"><br/>
+
+                    <br/><h4 style="font-family: Comic Scans MS; color: blueviolet; font-size: 17px "><label> Dulces más vendidos </label></h4>
+                    Popis <input type="checkbox" name="popis"><br/>
+                    Chocolate <input type="checkbox" name="chocolate"><br/>
+                    Gomitas <input type="checkbox" name="gomitas"><br/>
+                    Turrones <input type="checkbox" name="turrones"><br/>
+                    Barriletes <input type="checkbox" name="barriletes"><br/>
+                    Chicles <input type="checkbox" name="chicles"><br/>
+                    <br/>
+
+                    <input  type="submit" name="enviar" value="Enviar">
+                </form>
+            </article>
+
+        </section>
+
+
+        <br/><footer> Abastecedor La Negrita Derechos reservados /COPY;  2022 </footer>
+
+
+
+    </body>
+</html>
